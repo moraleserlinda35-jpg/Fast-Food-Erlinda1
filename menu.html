@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Fast Food Erlinda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fast Food Erlinda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="chefs.html">Nuestros Chefs</a></li>
+                <li><a href="carrito.html">Carrito de Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Nuestro Menú</h2>
+        
+        <section id="comidas">
+            <h3>Comidas Principales</h3>
+            <div class="menu-grid">
+                <!-- Producto 1 -->
+                <div class="menu-item">
+                    <img src="hamburguesa.png" alt="Dibujo de una hamburguesa">
+                    <h4>Hamburguesa Clásica</h4>
+                    <p>Carne de res, lechuga, tomate y queso en pan brioche.</p>
+                    <p class="precio">Precio: 35 Bs.</p>
+                    <button class="add-to-cart" data-id="1" data-nombre="Hamburguesa Clásica" data-precio="35">Añadir al Carrito</button>
+                </div>
+                <!-- Producto 2 -->
+                <div class="menu-item">
+                    <img src="pizza.png" alt="Dibujo de una pizza">
+                    <h4>Pizza Pepperoni</h4>
+                    <p>Masa artesanal, salsa de tomate, mozzarella y pepperoni.</p>
+                    <p class="precio">Precio: 60 Bs.</p>
+                    <button class="add-to-cart" data-id="2" data-nombre="Pizza Pepperoni" data-precio="60">Añadir al Carrito</button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="menu-item">
+                    <img src="hotdog.png" alt="Dibujo de un hot dog">
+                    <h4>Hot Dog Especial</h4>
+                    <p>Salchicha especial, pan suave, papas fritas al hilo y salsas.</p>
+                    <p class="precio">Precio: 25 Bs.</p>
+                    <button class="add-to-cart" data-id="3" data-nombre="Hot Dog Especial" data-precio="25">Añadir al Carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="helados">
+            <h3>Helados</h3>
+            <div class="menu-grid">
+                <!-- Helado 1 -->
+                <div class="menu-item">
+                    <img src="heladochocolate.png" alt="Dibujo de helado de chocolate">
+                    <h4>Copa de Chocolate</h4>
+                    <p>Dos bolas de helado de chocolate con fudge y chispas.</p>
+                    <p class="precio">Precio: 20 Bs.</p>
+                    <button class="add-to-cart" data-id="4" data-nombre="Copa de Chocolate" data-precio="20">Añadir al Carrito</button>
+                </div>
+                <!-- Helado 2 -->
+                <div class="menu-item">
+                    <img src="Batido.png" alt="Dibujo de helado de frutilla">
+                    <h4>Batido de Frutilla</h4>
+                    <p>Helado de frutilla y leche, batido a la perfección.</p>
+                    <p class="precio">Precio: 22 Bs.</p>
+                    <button class="add-to-cart" data-id="5" data-nombre="Batido de Frutilla" data-precio="22">Añadir al Carrito</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fast Food Erlinda. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
